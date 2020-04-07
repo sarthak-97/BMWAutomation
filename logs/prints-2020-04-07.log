@@ -1,0 +1,13 @@
+15:38:16.058 [main] INFO  in.bmw.scripts.BMWPageTest - series link clicked
+15:38:16.067 [main] INFO  in.bmw.scripts.BMWPageTest - 10 sec implicit wait
+15:38:16.082 [main] INFO  in.bmw.scripts.BMWPageTest - Using mouse over event
+15:38:24.461 [main] INFO  in.bmw.scripts.BMWPageTest - going to 7th series page
+15:38:24.470 [main] INFO  in.bmw.scripts.BMWPageTest - reached 7th series page
+15:38:24.538 [main] INFO  in.bmw.scripts.BMWPageTest - reached 7th series page successfully
+15:38:27.501 [main] INFO  in.bmw.scripts.BMWPageTest - reached technical data page successfully
+15:38:27.669 [main] ERROR in.bmw.scripts.BMWPageTest - assertion failed
+15:38:27.915 [main] INFO  in.bmw.scripts.BMWPageTest - driver closed
+15:57:34.343 [main] INFO  scripts.BMWPageTest - driver is initialised
+15:57:53.966 [main] INFO  scripts.BMWPageTest - navigated to Landing page
+15:57:54.043 [main] INFO  scripts.BMWPageTest - succesfully navigated
+15:57:54.631 [main] INFO  scripts.BMWPageTest - models link clicked

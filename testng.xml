@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BMWSuite">
+<listeners>
+	
+	<listener class-name="in.bmw.objectrepo.Listeners"/>
+
+</listeners>
+
+  <test thread-count="5" name="BMWTest">
+    <classes>
+      <class name="in.bmw.scripts.BMWPageTest"/>
+    </classes>
+  </test> <!-- BMWTest -->
+</suite> <!-- BMWSuite -->

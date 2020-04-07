@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BMWSuite]">
+  <listeners>
+    <listener class-name="objectrepo.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="BMWTest(failed)">
+    <classes>
+      <class name="scripts.BMWPageTest">
+        <methods>
+          <include name="testTechnicalData"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- scripts.BMWPageTest -->
+    </classes>
+  </test> <!-- BMWTest(failed) -->
+</suite> <!-- Failed suite [BMWSuite] -->
